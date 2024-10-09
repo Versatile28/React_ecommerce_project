@@ -15,6 +15,10 @@ export default function UserLogin() {
   return (
     <div className="UserLogin">
       <div className="form_container">
+        <div>
+          <img src="../user_logo.png" alt="" />
+          <h2>User Login</h2>
+        </div>
         <form action="">
           <label>Username: </label>
           <input type="text" value={username} onChange={(r)=>{setUsername(r.target.value)}} placeholder="Enter the username" required />

@@ -15,6 +15,10 @@ export default function AdminLogin() {
   return (
     <div className="AdminLogin">
       <div className="form_container">
+        <div>
+          <img src="../admin_logo.png" alt="" />
+          <h2>Admin Login</h2>
+        </div>
         <form action="">
           <label>Username: </label>
           <input type="text" value={username} onChange={(r)=>{setUsername(r.target.value)}} placeholder="Enter the username" required />
