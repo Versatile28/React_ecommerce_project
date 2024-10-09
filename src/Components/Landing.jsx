@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 const Landing = () => {
     return ( 
         <div className="landing">
-            <Link to='./AdminLogin.jsx'>
+            <Link to='/adminlogin'>
                 <h1>Admin</h1>
             </Link>
-            <Link to='./UserLogin.jsx'>
+            <Link to='/userlogin'>
                 <h1>User</h1>
             </Link>
         </div>
