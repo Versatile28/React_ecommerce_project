@@ -11,6 +11,7 @@
 }
 
 .AdminLogin form{
+    width: 20%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -18,4 +19,30 @@
     gap: .2rem;
     border: .1rem solid black;
     border-radius: .4rem;
+}
+
+.AdminLogin label{
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.AdminLogin input{
+    padding: .3rem;
+    font-size: .6rem;
+}
+
+.AdminLogin button{
+    padding: .3rem 0;
+    margin-top: .8rem;
+    background-color: green;
+    color: white;
+    border: .1rem solid green;
+    border-radius: .5rem;
+    font-weight: 600;
+}
+
+.AdminLogin button:hover{
+    background-color: white;
+    color: green;
+    border: .1rem solid green;
 }
