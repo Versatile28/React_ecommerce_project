@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../styles/AdminLogin.css'
 export default function AdminLogin() {
   let [username,setUsername] = useState("");
   let [password,setPassword] = useState("");

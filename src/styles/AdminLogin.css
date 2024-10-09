@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+.AdminLogin{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AdminLogin form{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .2rem;
+    border: .1rem solid black;
+    border-radius: .4rem;
+}
