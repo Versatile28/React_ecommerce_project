@@ -21,6 +21,7 @@ export default function UserLogin() {
         </div>
         <form action="">
           <label>Username: </label>
+          {/* r.target.value = r is the event and terget is used to target the element on which event in happening na dvalue is uded to get the value */}
           <input type="text" value={username} onChange={(r)=>{setUsername(r.target.value)}} placeholder="Enter the username" required />
           <label>Password: </label>
           <input type="text" value={password} onChange={(r)=>{setPassword(r.target.value)}} placeholder="Enter the password" required />
