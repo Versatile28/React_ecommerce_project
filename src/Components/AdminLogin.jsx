@@ -16,9 +16,26 @@ export default function AdminLogin() {
     fetchAdmin();
   },[]);
 
-  function login(){
+  // function Login(){
+  //   let count = admin.reduce((count,i)=>{
+  //     return i.username===username && i.password===password?count+1:count;},0);
+  //   if(count===1){
+  //     alert('Login successful');
+  //   }else{
+  //     alert('Login Failed');
+  //   }
+  // };
 
-  };
+  function Login(){
+    let val = admin.filter((x)=>{
+      return x.username===username && x.password===password;
+    });
+    if(val.length>0){
+      alert('Login Successful');
+    }else{
+      alert('Login Failed');
+    }
+  }
 
   return (
     <div className="AdminLogin">
@@ -33,7 +50,7 @@ export default function AdminLogin() {
           <input type="text" value={username} onChange={(r)=>{setUsername(r.target.value)}} placeholder="Enter the username" required />
           <label>Password: </label>
           <input type="text" value={password} onChange={(r)=>{setPassword(r.target.value)}} placeholder="Enter the password" required />
-          <button onClick={login}>Login</button>
+          <button onClick={Login}>Login</button>
         </form>
       </div>
     </div>
