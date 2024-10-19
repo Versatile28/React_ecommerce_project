@@ -1,3 +1,82 @@
+/* *{
+    margin: 0;
+}
+
+.AdminLogin{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color:rgba(119, 255, 0, 0.22);
+}
+
+.AdminLogin>div{
+    width: 15rem;
+    padding: 1rem;
+    border: .1rem solid black;
+    border-radius: .4rem;
+    background-color: white;
+    box-shadow: 0 0 .5rem rgba(119, 255, 0, 0.445);
+    
+}
+
+.form_container>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+    margin-bottom: .5rem;
+}
+
+.form_container h2{
+    color: rgb(0,62,24);
+}
+
+.AdminLogin img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.AdminLogin form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .3rem;
+}
+
+.AdminLogin label{
+    font-size: .8rem;
+    font-weight: 600;
+    color: rgb(0,62,24);
+}
+
+.AdminLogin input{
+    padding: .4rem;
+    font-size: .7rem;
+    color: rgb(0,62,24);
+    font-weight: 500;
+}
+
+.AdminLogin button{
+    padding: .4rem 0;
+    margin-top: .6rem;
+    background-color: green;
+    color: white;
+    border: .1rem solid green;
+    border-radius: .5rem;
+    font-weight: 600;
+}
+
+.AdminLogin button:hover{
+    background-color: white;
+    color: green;
+    border: .1rem solid green;
+} */
+
+
 *{
     margin: 0;
 }
@@ -23,22 +102,20 @@
     
 }
 
-.form_container>div{
+.head{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: .6rem;
-    margin-bottom: .5rem;
-}
-
-.form_container h2{
-    color: rgb(0,62,24);
+    align-items: center;
 }
 
 .AdminLogin img{
     height: 3rem;
     width: 3rem;
+}
+
+.AdminLogin h2{
+    color: rgb(0,62,24);
 }
 
 .AdminLogin form{
