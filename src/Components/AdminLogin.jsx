@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../styles/AdminLogin.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import {Link} from 'react-router-dom';
 export default function AdminLogin() {
   let [username, setUsername] = useState('');
   let [password, setPassword] = useState('');
@@ -90,6 +91,7 @@ export default function AdminLogin() {
           <Button variant="primary" type="submit" onClick={Login}>
             Submit
           </Button>
+          <span>Click here to <Link to='/adminsignup'>Sign up</Link></span>
         </Form>
       </div>
     </div>

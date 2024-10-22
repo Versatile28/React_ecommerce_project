@@ -1,18 +1,25 @@
 {
-    "Admin":[
-        {
-            "id" : 1,
-            "username" : "raja@gmail.com",
-            "password" : "raja123",
-            "phone" : "9433564732",
-            "name" : "Raja"
-        },
-        {
-            "id" : 2,
-            "username" : "sujit@gmail.com",
-            "password" : "sujit123",
-            "phone" : "9745365241",
-            "name" : "Sujit"
-        }
-    ]
+  "Admin": [
+    {
+      "id": "1",
+      "username": "raja@gmail.com",
+      "password": "raja123",
+      "phone": "9433564732",
+      "name": "Raja"
+    },
+    {
+      "id": "2",
+      "username": "sujit@gmail.com",
+      "password": "sujit123",
+      "phone": "9745365241",
+      "name": "Sujit"
+    },
+    {
+      "id": "fe85",
+      "name": "Satyaki Pal",
+      "password": "satyakipal12345",
+      "phone": "9873452639",
+      "email": "satyaki@gmail.com"
+    }
+  ]
 }

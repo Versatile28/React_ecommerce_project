@@ -1,0 +1,28 @@
+.AdminSignUp{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AdminSignUp form{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100px 200px;
+    width: 350px;
+    height: 500px;
+    padding: 10px;
+}
+.bg_img{
+    height: 500px ;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://img.freepik.com/free-psd/shopping-vertical-background_23-2150409471.jpg?size=626&ext=jpg&ga=GA1.1.967060102.1729382400&semt=ais_hybrid);
+}
+.AdminSignUp form input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black ;
+    font-size: 20px;
+}
