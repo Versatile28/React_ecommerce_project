@@ -4,6 +4,7 @@ import AdminLogin from "./Components/AdminLogin";
 import UserLogin from "./Components/UserLogin";
 import AdminSignUp from "./Components/AdminSignUp";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AdminHomePage from "./Components/AdminHomePage";
 
 const App = () => {
   return ( 
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/adminlogin' element={<AdminLogin/>}/>
         <Route path='/userlogin' element={<UserLogin/>}/>
         <Route path='/adminsignup' element={<AdminSignUp/>}></Route>
+        <Route path='/adminhomepage' element={<AdminHomePage/>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

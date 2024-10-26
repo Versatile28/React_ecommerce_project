@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../styles/AdminLogin.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 export default function AdminLogin() {
   let [username, setUsername] = useState('');
   let [password, setPassword] = useState('');
@@ -29,12 +29,15 @@ export default function AdminLogin() {
   //   }
   // };
 
+  let navigate = useNavigate();
+
   function Login() {
     let val = admin.filter((x) => {
       return x.username === username && x.password === password;
     });
     if (val.length > 0) {
       alert('Login Successful');
+      navigate('/adminhomepage');
     } else {
       alert('Login Failed');
     }
