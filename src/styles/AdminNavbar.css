@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     gap: 350px;
-    background-color: rgba(119, 255, 0, 0.22);
+    background-color: rgb(120, 255, 105);
     height: 70px;
+    position: sticky;
+    top: 0;
 }

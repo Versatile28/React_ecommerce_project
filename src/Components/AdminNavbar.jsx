@@ -11,6 +11,7 @@ export default function AdminNavbar() {
             <h1>E<span>kart</span></h1>
         </div>
         <div className="links">
+            <Link to='/adminhomepage/addproducts'>Add Items</Link>
             <Link to='/adminhomepage/viewproducts'>ShoppingList</Link>
             <Link to='/adminhomepage/viewcart'><ShoppingCartIcon/>Cart</Link>
         </div>
