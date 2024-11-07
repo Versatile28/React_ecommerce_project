@@ -1,0 +1,37 @@
+.AdminViewItems{
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title{
+    text-align: center;
+}
+
+.sub_items{
+    margin: 20px 20px;
+    z-index: 0;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 315px 315px 315px;
+}
+
+.card{
+  width: 300px;
+  height: 600px;
+  margin: 15px 15px;
+  overflow: hidden;
+}
+
+.card .card-img{
+  height: 200px;
+  width: 200px;
+}
+
+.card .desc{
+  max-height: 100px;
+  overflow: hidden;
+}
