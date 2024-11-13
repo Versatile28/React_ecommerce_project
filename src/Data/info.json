@@ -22,7 +22,29 @@
       "email": "satyaki@gmail.com"
     }
   ],
-  "User": [],
+  "User": [
+    {
+      "id": "1",
+      "username": "raja@gmail.com",
+      "password": "raja123",
+      "phone": "9433564732",
+      "name": "Raja"
+    },
+    {
+      "id": "ec46",
+      "username": "satyaki@gmail.com",
+      "password": "12345",
+      "phone": "1234567890",
+      "name": "Satyaki"
+    },
+    {
+      "id": "65ae",
+      "username": "sahil@gmail.com",
+      "password": "1234567888890",
+      "phone": "1234567890",
+      "name": "Sahil"
+    }
+  ],
   "Product": [
     {
       "id": "b20c",

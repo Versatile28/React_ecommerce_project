@@ -4,6 +4,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import Landing from "./Components/Landing";
 import AdminLogin from "./Components/AdminLogin";
 import UserLogin from "./Components/UserLogin";
+import UserSignUp from "./Components/UserSignUp";
+import UserHomePage from "./Components/UserHomePage";
 import AdminSignUp from "./Components/AdminSignUp";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AdminHomePage from "./Components/AdminHomePage";
@@ -21,6 +23,8 @@ const App = () => {
         <Route path='/userlogin' element={<UserLogin/>}/>
         <Route path='/adminsignup' element={<AdminSignUp/>}></Route>
         <Route path='/adminhomepage/*' element={<AdminHomePage/>}></Route>
+        <Route path='/usersignup' element={<UserSignUp/>}></Route>
+        <Route path='/userhomepage/*' element={<UserHomePage/>}></Route>
         
       </Routes>
       </BrowserRouter>

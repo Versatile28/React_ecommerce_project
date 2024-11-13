@@ -1,78 +1,76 @@
 *{
-    margin: 0;
+  margin: 0;
 }
 
 .UserLogin{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-    background-color:rgba(119, 255, 0, 0.22);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color:rgba(119, 255, 0, 0.22);
 }
 
 .UserLogin>div{
-    width: 15rem;
-    padding: 1rem;
-    border: .1rem solid black;
-    border-radius: .4rem;
-    background-color: white;
-    box-shadow: 0 0 .5rem rgba(119, 255, 0, 0.445);
-    /* transform: scale(1.2); */
-    
+  width: 15rem;
+  padding: 1rem;
+  border: .1rem solid black;
+  border-radius: .4rem;
+  background-color: white;
+  box-shadow: 0 0 .5rem rgba(119, 255, 0, 0.445);
+  /* transform: scale(1.2); */
+  
 }
 
-.form_container>div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: .6rem;
-    margin-bottom: .5rem;
-}
-
-.form_container h2{
-    color: rgb(0,62,24);
+.head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .UserLogin img{
-    height: 3rem;
-    width: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.UserLogin h2{
+  color: rgb(0,62,24);
 }
 
 .UserLogin form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: .3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .3rem;
 }
 
 .UserLogin label{
-    font-size: .8rem;
-    font-weight: 600;
-    color: rgb(0,62,24);
+  font-size: .8rem;
+  font-weight: 600;
+  color: rgb(0,62,24);
 }
 
 .UserLogin input{
-    padding: .4rem;
-    font-size: .7rem;
-    color: rgb(0,62,24);
-    font-weight: 500;
+  padding: .4rem;
+  font-size: .7rem;
+  color: rgb(0,62,24);
+  font-weight: 500;
 }
 
 .UserLogin button{
-    padding: .4rem 0;
-    margin-top: .6rem;
-    background-color: green;
-    color: white;
-    border: .1rem solid green;
-    border-radius: .5rem;
-    font-weight: 600;
+  padding: .4rem 0;
+  margin-top: .6rem;
+  background-color: green;
+  color: white;
+  border: .1rem solid green;
+  border-radius: .5rem;
+  font-weight: 600;
 }
 
 .UserLogin button:hover{
-    background-color: white;
-    color: green;
-    border: .1rem solid green;
+  background-color: white;
+  color: green;
+  border: .1rem solid green;
 }

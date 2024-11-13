@@ -63,7 +63,7 @@ export default function AdminLogin() {
 
     <div className="AdminLogin">
       <div>
-        <div class="head">
+        <div className="head">
           <img src="../admin_logo.png" alt="" />
           <h2>Admin Login</h2>
         </div>
