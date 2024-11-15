@@ -7,6 +7,7 @@ import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import EditIcon from '@mui/icons-material/Edit';
 import { useNavigate } from 'react-router-dom';
 
+
 // import { setRef } from '@mui/material';
 
 export default function AdminViewItems() {
@@ -15,7 +16,7 @@ export default function AdminViewItems() {
 
   useEffect(()=>{
     function fetchdata(){
-      axios.get('http://localhost:2000/Products')
+      axios.get('http://localhost:8000/Product')
       .then((res)=>{
         setProducts(res.data)
       })
@@ -25,10 +26,9 @@ export default function AdminViewItems() {
     }
     fetchdata()
   },[force])
-  console.log(products);
 
   function deleteProduct(id,Name){
-    axios.delete(`http://localhost:2000/Products/${id}`)
+    axios.delete(`http://localhost:8000/Product/${id}`)
     .then(()=>{
       toast.success(`${Name} delete successfully`)
       setForce(force+1)
@@ -68,8 +68,8 @@ export default function AdminViewItems() {
                   <Card.Text>
                     Ratings: {product.rating}
                   </Card.Text>
-                  <Button onClick={()=>{editPage(product.id)}}className='m-3 btn btn-warning'><EditIcon/>Update</Button>
-                  <Button onClick={()=>{deleteProduct(product.id,product.Name)}}  className='m-3 btn btn-danger'><DeleteForeverIcon/>Delete</Button>
+                  <Button onClick={()=>{editPage(product.id)}} className='m-3' variant='warning'><EditIcon/>Update</Button>
+                  <Button variant="danger" onClick={()=>{deleteProduct(product.id,product.Name)}}  ><DeleteForeverIcon/>Delete</Button>
                 </Card.Body>
               </Card>
         )

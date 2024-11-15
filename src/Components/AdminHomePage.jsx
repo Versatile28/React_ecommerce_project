@@ -3,7 +3,7 @@ import AdminDashboard from "./AdminDashboard";
 import { Routes,Route } from 'react-router-dom';
 import AdminViewItems from "./AdminViewItems";
 import AdminAddProducts from "./AdminAddProducts";
-import UpdateProducts from ".UpdateProducts/";
+import UpdateProducts from "./UpdateProducts";
 
 const AdminHomePage = () => {
     return ( 
