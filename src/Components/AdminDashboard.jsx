@@ -1,7 +1,10 @@
 import React from 'react'
+import AdminViewItems from './AdminViewItems'
 
 export default function AdminDashboard() {
   return (
-    <div>AdminDashboard</div>
+    <div>
+      <AdminViewItems/>
+    </div>
   )
 }

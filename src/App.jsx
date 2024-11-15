@@ -21,11 +21,10 @@ const App = () => {
         <Route path='/' element={<Landing/>}/>
         <Route path='/adminlogin' element={<AdminLogin/>}/>
         <Route path='/userlogin' element={<UserLogin/>}/>
-        <Route path='/adminsignup' element={<AdminSignUp/>}></Route>
-        <Route path='/adminhomepage/*' element={<AdminHomePage/>}></Route>
-        <Route path='/usersignup' element={<UserSignUp/>}></Route>
-        <Route path='/userhomepage/*' element={<UserHomePage/>}></Route>
-        
+        <Route path='/adminsignup' element={<AdminSignUp/>}/>
+        <Route path='/adminhomepage/*' element={<AdminHomePage/>}/>
+        <Route path='/usersignup' element={<UserSignUp/>}/>
+        <Route path='/userhomepage/*' element={<UserHomePage/>}/>
       </Routes>
       </BrowserRouter>
       <ToastContainer/>

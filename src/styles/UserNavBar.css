@@ -1,0 +1,11 @@
+.UserNavBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 350px;
+  background-color: rgb(120, 255, 105);
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

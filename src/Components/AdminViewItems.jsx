@@ -3,36 +3,46 @@ import axios from 'axios'
 import {Card,Button} from 'react-bootstrap';
 import '../styles/AdminViewItems.css';
 import {toast} from 'react-toastify';
+import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+import EditIcon from '@mui/icons-material/Edit';
+import { useNavigate } from 'react-router-dom';
+
+// import { setRef } from '@mui/material';
 
 export default function AdminViewItems() {
-  let [products, setProducts] = useState([])
+  let [products,setProducts]=useState([])
+  let[force,setForce]=useState(0);
 
-  useEffect(() => {
-    function fetchdata() {
-      axios.get('http://localhost:8000/Product')
-        .then((res) => {
-          setProducts(res.data);
-        })
-        .catch((err) => {
-          console.log(err);
-        })
+  useEffect(()=>{
+    function fetchdata(){
+      axios.get('http://localhost:2000/Products')
+      .then((res)=>{
+        setProducts(res.data)
+      })
+      .catch((err)=>{
+        console.log(err);
+      })
     }
     fetchdata()
-  }, [products])
+  },[force])
+  console.log(products);
 
-
-  function deleteProduct(id,name){
-    axios.delete(`http://localhost:8000/Product/${id}`)
+  function deleteProduct(id,Name){
+    axios.delete(`http://localhost:2000/Products/${id}`)
     .then(()=>{
-      toast.success(`${name} Deleted succesfully`);
+      toast.success(`${Name} delete successfully`)
+      setForce(force+1)
     })
     .catch(()=>{
-      toast.error();
+      toast.error(`Data not present`)
     })
   }
 
+  let navigate=useNavigate()
+  function editPage(id){
+    navigate(`/adminhomepage/updateproducts/${id}`)
+  }
 
-  console.log(products);
   return (
     <div className='AdminViewItems'>
       <h1 className='title'>Products</h1>
@@ -43,6 +53,9 @@ export default function AdminViewItems() {
                 <Card.Img className='card-img' variant="top" src={product.image} />
                 <Card.Body>
                   <Card.Title>{product.name}</Card.Title>
+                  <Card.Text>
+                    Catagory : {product.catagory}
+                  </Card.Text>
                   <Card.Text>
                     M.R.P : <strike>{product.price}</strike>
                   </Card.Text>
@@ -55,8 +68,8 @@ export default function AdminViewItems() {
                   <Card.Text>
                     Ratings: {product.rating}
                   </Card.Text>
-                  <Button variant="primary" className='m-3 btn btn-warning'>Update</Button>
-                  <Button variant="primary" onClick={()=>{deleteProduct(product.id,product.name)}} className='m-3 btn btn-danger'>Delete</Button>
+                  <Button onClick={()=>{editPage(product.id)}}className='m-3 btn btn-warning'><EditIcon/>Update</Button>
+                  <Button onClick={()=>{deleteProduct(product.id,product.Name)}}  className='m-3 btn btn-danger'><DeleteForeverIcon/>Delete</Button>
                 </Card.Body>
               </Card>
         )

@@ -1,0 +1,29 @@
+.UpdateProducts fieldset{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 450px;
+  height: 600px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.UpdateProducts form{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.UpdateProducts input,select,option,textarea{
+  border:.5px solid black;
+  border-radius: 5px;
+  padding: 6px;
+  margin-bottom: 30px;
+}
