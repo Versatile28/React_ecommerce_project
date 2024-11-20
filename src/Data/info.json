@@ -20,6 +20,13 @@
       "password": "satyakipal12345",
       "phone": "9873452639",
       "email": "satyaki@gmail.com"
+    },
+    {
+      "id": "0d7d",
+      "name": "Satyaki Pal",
+      "password": "1234567890",
+      "phone": "1234567890",
+      "email": "satyaki@xyz.com"
     }
   ],
   "User": [
@@ -47,16 +54,72 @@
   ],
   "Product": [
     {
-      "id": "b20c",
+      "id": "1",
       "category": "Mobile",
       "name": "eee",
       "price": "123.00",
-      "desc": "BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.",
+      "desc": "BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.",
       "image": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._SL1500_.jpg",
       "rating": "3"
     },
     {
-      "id": "b20c",
+      "id": "3",
+      "category": "Mobile",
+      "name": "eee",
+      "price": "123.00",
+      "desc": "BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.",
+      "image": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._SL1500_.jpg",
+      "rating": "3"
+    },
+    {
+      "id": "4",
+      "category": "Mobile",
+      "name": "eee",
+      "price": "123.00",
+      "desc": "BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.",
+      "image": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._SL1500_.jpg",
+      "rating": "3"
+    },
+    {
+      "id": "5",
+      "category": "Mobile",
+      "name": "eee",
+      "price": "123.00",
+      "desc": "BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.",
+      "image": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._SL1500_.jpg",
+      "rating": "3"
+    },
+    {
+      "id": "7",
+      "category": "Mobile",
+      "name": "eee",
+      "price": "123.00",
+      "desc": "BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.",
+      "image": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._SL1500_.jpg",
+      "rating": "3"
+    }
+  ],
+  "Cart": [
+    {
+      "id": "4",
+      "category": "Mobile",
+      "name": "eee",
+      "price": "123.00",
+      "desc": "BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.",
+      "image": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._SL1500_.jpg",
+      "rating": "3"
+    },
+    {
+      "id": "3",
+      "category": "Mobile",
+      "name": "eee",
+      "price": "123.00",
+      "desc": "BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.",
+      "image": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._SL1500_.jpg",
+      "rating": "3"
+    },
+    {
+      "id": "1",
       "category": "Mobile",
       "name": "eee",
       "price": "123.00",
